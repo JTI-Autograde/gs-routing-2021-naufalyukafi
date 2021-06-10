@@ -118,11 +118,11 @@ function App() {
        <Switch>
          <Route path="/mymovie">
            <>
-           {/* <MyMovie 
-              movies={movies}
-              onDeleteMovie={handleDeleteMovie}
-              onEditMovie={handleEditMovie}
-            /> */}
+             <MyMovie 
+                movies={movies}
+                onDeleteMovie={handleDeleteMovie}
+                onEditMovie={handleEditMovie}
+              />
            </>
          </Route>
          <Route path="/upcomingmovies">
