@@ -127,11 +127,11 @@ function App() {
          </Route>
          <Route path="/upcomingmovies">
            <>
-           {/* <UpcomingMovies 
-              movies={movies}
-              onAddMovie={handleAddMovie}
-              onWatched={handleWatched}
-           /> */}
+             <UpcomingMovies 
+                movies={movies}
+                onAddMovie={handleAddMovie}
+                onWatched={handleWatched}
+             /> 
            </>
          </Route>
          <Route path="/upload">
